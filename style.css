@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    padding: 5px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FBAf03;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar-brand {
+    color: #FBAf03;
+    font-weight: bold;
+    user-select: none;
+}
+
+.navbar-brand:hover {
+    color: #FBAf03;
+    font-weight: bold;
+    user-select: none;
+}
+
+.home-left-div h2 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.home-left-div p {
+    font-size: 9px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-weight: white;
+    opacity: 0.5;
+}
+
+.home-search-div {
+    margin: 10px 0px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.home-service-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 4px;
+
+}
+
+.home-service-div h5 {
+    font-size: 23px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background-color: #FCE7E1;
+    color: #c77d4e;
+}
+
+.home-service-div {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-service-div h5 span {
+    margin-right: 5px;
+}
+
+.home-input-button input {
+    background-color: #F4F4F4;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    width: 221px;
+    height: 38px;
+    font-size: 9px;
+    padding-left: 10px;
+}
+
+.home-input-button button {
+    background-color: #f66422;
+    color: #ffddc1;
+    padding: 5px 15px;
+    border-radius: 2px;
+    font-size: 9px;
+    border: none;
+}
+
+.home-input-button button span {
+    margin-right: 5px;
+}
+
+#menu {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#menu .menu-heading h1 {
+    color: #cd7a46;
+    margin-bottom: 60px;
+}
+
+#menu .card .card-body .btn {
+    background-color: #e68e0b;
+    color: #f4ca54;
+    border: none;
+}
+
+#About {
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#About .container .card h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    padding: 10px;
+    color: #f8ae04;
+}
+
+.about-heading h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #cd7a46;
+}
+
+#Category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.search-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef8f1;
+
+}
+
+.search-cards .card-body .card {
+    border-radius: 50%;
+}
+
+.search-cards .card-body .card:hover {
+    border: 6px solid #cd7a46;
+    border-radius: 50%;
+}
+
+#best-deals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#best-deals .card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+}
+
+#best-deals .card .card-body h5 span {
+    color: #f4ca54;
+}
+
+#best-deals .card .card-body .btn {
+    background-color: #e68e0b;
+    color: #ffee61;
+}
+
+#deals-banner {
+    margin-top: 20px;
+}
+
+#deals-banner .card {
+    border: none;
+}
+
+#deals-banner .card .card-body {
+    background-color: #f8bc1a;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#deals-banner .card .card-body h2 {
+    color: white;
+}
+
+#deals-banner .card .card-body .btn {
+    background-color: #f7602c;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 9px;
+    border-radius: 5px;
+}
+
+#footer .card .card-body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#Category .card .card-header {
+    color: #e68e0b;
+}
